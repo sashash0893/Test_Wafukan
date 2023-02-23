@@ -441,10 +441,35 @@ a {
     .main__text {
         font-size: 20px;
     }
-}
-@media screen and (max-width: 1079px) {
+    .num {
+        font-size: 35px;
+    }
     .form {
         height: 435px;
         width: 420px;
     }
+    .form__buttom {
+        font-size: 25px;
+    }
+    .form__title {
+        font-size: 25px;
+    }
+    .footer__title {
+        font-size: 20px;
+    }
+    .li {
+        font-size: 17px;
+    }
+    .footer__link {
+        font-size: 17px;
+    }
+    .copyright {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 985px) {
+    
+}
+@media screen and (max-width: 983px) {
+
 }
