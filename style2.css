@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+}
+
+
+.container {
+    margin: 0px 166px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*ШАПКА САЙТА*/
+
+.logo {
+    width: 350px;
+    height: 350px;
+    margin-top: -25px;
+    margin-left: 95px;
+}
+
+.logo__title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 40px;
+    margin-top: -100px;
+}
+
+header {
+    background-image: url(img/fonts_body.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(68, 70, 70);
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.header__line {
+    padding: 0%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.nav {
+    text-align: right;
+}
+
+.nav__item:hover {
+    color: coral;
+}
+
+.nav__item{
+    color: azure;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+
+    margin-right: 25px;
+}
+
+.phone-holder {
+    display: flex;
+}
+
+.num {
+    font-size: larger;
+    color: #fff;
+    text-decoration: none;
+}
+
+.num:hover {
+    color: coral;
+}
+
+
+.button {
+    background-color: coral;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    margin-left: 25px;
+    border-radius: 16px;
+    transform: 0.3s;
+}
+.button:hover {
+    color: rgb(255, 255, 255);
+    background-color: chocolate;
+    border-color: rgb(167, 81, 20);
+    transform: 0.3s;
+}
+
+/* BOX */
+
+.box__holder {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.box_left {
+    width: 50%;
+    color: #fff;
+}
+
+.box_right {
+    display: block;
+    width: 50%;
+    margin-left: 155px;
+    margin-top: -200px;
+}
+
+
+/* BOX LEFT FORM */
+
+.form {
+    width: 450px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #CCC;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    background: rgba(236, 231, 231, 0.1)
+    
+}
+
+.form__input,
+.form__buttom {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.form__title {
+    text-align: center;
+    margin: 0 0 32px 0;
+    font-weight: normal;
+    color: #fff;
+}
+.form__group {
+    position: relative;
+    margin-bottom: 32px;
+
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.form__input {
+    width: 100%;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: transparent; 
+    outline: none;
+    transform: 0.3s;
+    color: #fff;
+
+}
+
+.form__input:focus {
+    border-bottom: 1px solid chocolate;
+
+}
+
+.form__buttom {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: coral;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.form__buttom:focus,
+.form__buttom:hover {
+    background-color: chocolate;
+}
+
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown) ~ .form__label {
+    top: -18px;
+    font-size: 0px;
+    color: #797676;
+}
+
+/* FOOTER САЙТА */
+
+.footer {
+    margin-top: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row h4 {
+    line-height: 1.5;
+    margin: 20px;
+    padding: 20px;
+}
+
+.list-unstyled {
+    list-style-type: none;
+}
