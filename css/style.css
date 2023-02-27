@@ -851,7 +851,7 @@ a {
         font-size: 15px;
     }
 }
-@media screen and (max-width: 448px) {
+@media screen and (max-width: 456px) {
     .social-icon-instagram {
         right: 26px;
     }
