@@ -850,7 +850,6 @@ a {
         margin-top: 12px;
         font-size: 15px;
     }
-
 }
 @media screen and (max-width: 358px) {
     .h2__header {
@@ -877,5 +876,8 @@ a {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+}
+.h2__header {
+    font-size: 10px;
 }
 }
