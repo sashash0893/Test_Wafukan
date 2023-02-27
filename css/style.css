@@ -858,6 +858,11 @@ a {
     .h2__header {
         font-size: 12px;
     }
+    .form {
+        justify-content: center;
+        height: 328px;
+        width: 347px;
+    }
 }
 @media screen and (max-width: 369px) {
     .social-icon-instagram {
