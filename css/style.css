@@ -856,15 +856,12 @@ a {
         right: 26px;
     }
     .h2__header {
-        font-size: 19px;
+        font-size: 11px;
     }
     .form {
         justify-content: center;
         height: 328px;
         width: 347px;
-    }
-    @media screen and (max-width: 456px) {
-        
     }
 }
 @media screen and (max-width: 369px) {
