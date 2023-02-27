@@ -236,6 +236,10 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+input{
+    background: red;
+}
+
 .form__input:focus {
     border-bottom: 1px solid chocolate;
 
@@ -783,6 +787,20 @@ a {
     }
     .nav__link {
         font-size: 8px;
+    }
+}
+@media screen and (max-width: 493px) {
+    .footer, .footer__box, .footer__box1, .footer__box2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 445px) {
+    .form {
+        justify-content: center;
+        height: 306px;
+        width: 384px;
     }
 }
 @media screen and (max-width: 390px) {
