@@ -765,3 +765,27 @@ a {
         font-size: 8px;
     }
 }
+@media screen and (max-width: 350px) {
+    .container__main {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    }
+    .main {
+        display: flex;
+        margin-top: 100px;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form-face {
+        justify-content: center;
+    }
+    .form {
+        justify-content: center;
+        height: 320px;
+        width: 440px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
