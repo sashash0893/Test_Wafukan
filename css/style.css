@@ -851,6 +851,14 @@ a {
         font-size: 15px;
     }
 }
+@media screen and (max-width: 369px) {
+    .social-icon-instagram {
+        right: 26px;
+    }
+    .h2__header {
+        font-size: 11px;
+    }
+} 
 @media screen and (max-width: 358px) {
     .h2__header {
         font-size: 11px;
