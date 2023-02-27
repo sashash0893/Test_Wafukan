@@ -791,10 +791,11 @@ a {
 }
 @media screen and (max-width: 493px) {
     .footer, .footer__box, .footer__box1, .footer__box2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
 }
 @media screen and (max-width: 445px) {
     .form {
@@ -802,6 +803,12 @@ a {
         height: 306px;
         width: 384px;
     }
+    .footer, .footer__box, .footer__box1, .footer__box2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
 }
 @media screen and (max-width: 390px) {
     .container__main {
@@ -827,11 +834,11 @@ a {
         width: 315px;
     }
     .footer, .footer__box, .footer__box1, .footer__box2 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-    }
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
     .social {
         width: 100%;
         margin-top: 90px;
@@ -865,4 +872,10 @@ a {
     .num_header {
         font-size: 12px;
     }
+    .footer, .footer__box, .footer__box1, .footer__box2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
 }
