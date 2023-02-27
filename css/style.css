@@ -851,7 +851,7 @@ a {
         font-size: 15px;
     }
 }
-@media screen and (max-width: 456px) {
+@media screen and (max-width: 401px) {
     .social-icon-instagram {
         right: 26px;
     }
@@ -862,6 +862,9 @@ a {
         justify-content: center;
         height: 328px;
         width: 347px;
+    }
+    @media screen and (max-width: 456px) {
+        
     }
 }
 @media screen and (max-width: 369px) {
